@@ -1,0 +1,57 @@
+style.css
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color: #F1F1EF;
+}
+main{
+	display:flex , block; justify-content: center; align-items: center; height: 100vh; /*width: 50%;*/ margin:auto; flex-direction: row; 
+}
+.SEDANS{
+	width: 200px; height: 60%; padding: 2em; border-bottom-left-radius: 4px;  border-top-left-radius: 4px; font-family: impact,charcoal,san-serif; color:white; font-size: 16px; background-color: #D79922
+}
+
+.SUVS{
+	width: 200px; height: 60%;  padding: 2em; font-family: impact,charcoal,san-serif; color:white; font-size: 16px; background-color: #3fb0ac
+}
+
+.LUXURY{
+	width: 200px; height: 60%; box-sizing: content-box; padding: 2em; border-bottom-right-radius: 4px;  border-top-right-radius: 4px; font-family: impact,charcoal,san-serif; color:white; font-size: 16px; background-color: #173e43
+}
+
+.firstp{
+	padding-top: 1em; padding-bottom: 1em; font-family: courier, monospace; align-self: center;
+}
+
+.secondp{
+	padding-top: 1em; padding-bottom: 1em; font-family: courier, monospace; align-self: center;
+}
+
+
+.thirdp{
+	padding-top: 1em; padding-bottom: 1em; font-family: courier, monospace; align-self: center;
+}
+
+.button1{
+	background-color: white; color: #D79922; border-radius: 15%; border: none; padding: 0.5em;
+}
+
+.button1:hover{
+	background-color: #D79922; color: white; border: 5px ; border-color: white; }
+
+.button2{
+	background-color: white; color: #3fb0ac; border-radius: 15%; border: none; padding: 0.5em;
+}
+
+.button2:hover{
+	background-color: #3fb0ac; color: white; border: 5px ; border-color: white; }
+
+.button3{
+	background-color: white; color: #173e43; border-radius: 15%; border: none; padding: 0.5em;
+}
+
+.button3:hover{
+	background-color: #173e43; color: white; border: 5px ; border-color: white; }
